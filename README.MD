@@ -13,7 +13,7 @@ The following instructions will guide you through the setup and running processe
 - `feature_incremental.py`: Code related to incremental feature settings.
 - `train_val.py`: Manages the training and validation processes over epochs.
 - `utility.py`: Includes functionality for data reading and preprocessing.
-- Currently our code is applicable for binary classification scenarios as all the datasets referenced in the paper involve binary classification tasks.
+- Currently, our code is applicable for binary classification scenarios as all the datasets referenced in the paper involve binary classification tasks.
 ## Data Download and Processing
 Data can be downloaded using the links provided in the paper. Please ensure the following format rules are met:
 
@@ -35,10 +35,11 @@ Feel free to adjust parameters and explore different configurations to achieve t
 If you find this repo useful in your research, please consider citing our paper as follows:
 
 ```
-@article{mambatab,
+@inproceedings{mambatab,
   title={MambaTab: A Plug-and-Play Model for Learning Tabular Data},
   author={Ahamed, Md Atik and Cheng, Qiang},
-  journal={arXiv preprint arXiv:2401.08867},
-  year={2024}
+  booktitle={2024 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)},
+  year={2024},
+  organization={IEEE}
 }
 ```
