@@ -36,7 +36,7 @@ If you find this repo useful in your research, please consider citing our paper 
 
 ```
 @inproceedings{mambatab,
-  title={MambaTab: A Plug-and-Play Model for Learning Tabular Data},
+  title={{MambaTab}: A Plug-and-Play Model for Learning Tabular Data},
   author={Ahamed, Md Atik and Cheng, Qiang},
   booktitle={2024 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)},
   year={2024},
