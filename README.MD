@@ -1,4 +1,8 @@
 # Welcome to the repository of [MambaTab](https://arxiv.org/abs/2401.08867)
+
+## :triangular_flag_on_post: MambaTab is incorporated into [**Mambular**](https://github.com/OpenTabular/DeepTabular) 
+## :triangular_flag_on_post: MambaTab is utilized for [**Software Defect Prediction**](https://ieeexplore.ieee.org/abstract/document/10936889) 
+
 ![Alt text](./pics/mambatab.png)
 ## Instructions on How to Run the Code
 The following instructions will guide you through the setup and running processes of our code.
