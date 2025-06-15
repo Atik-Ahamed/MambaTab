@@ -3,13 +3,10 @@ from config import config
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader
 import torch
-from mamba_ssm import Mamba
 from train_val import train_model,train_ssl
 
 from sklearn.metrics import roc_auc_score
-import warnings
 import numpy as np
-from sklearn.utils import class_weight
 import sys
 from MambaTab import MambaTab
 
