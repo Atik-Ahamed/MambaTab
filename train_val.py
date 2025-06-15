@@ -28,7 +28,7 @@ def train_model(model,config, dataloader):
           
             for btch,feed_dict in enumerate(dataloader[phase]):
                 inputs=feed_dict[0]
-                inputs=inputs.unsqueeze(0)
+                inputs=inputs.unsqueeze(config['dim'])
                 labels=feed_dict[1]
                 
                 inputs = inputs.type(torch.FloatTensor)
@@ -105,11 +105,11 @@ def train_ssl(model,config,dataloader):
                 tensor_shuffled = tensor_data[torch.randperm(num_elements)].reshape(inputs.shape)
                 to_predict=inputs.detach().clone()
                 inputs=tensor_shuffled*inputs
-                inputs=inputs.unsqueeze(0)
+                inputs=inputs.unsqueeze(config['dim'])
 
                 inputs = inputs.to(config['device'])
                 to_predict = to_predict.to(config['device'])
-                to_predict=to_predict.unsqueeze(0)
+                to_predict=to_predict.unsqueeze(config['dim'])
 
             
                 optimizer.zero_grad()

@@ -7,7 +7,6 @@ from mamba_ssm import Mamba
 from train_val import train_model,train_ssl
 
 from sklearn.metrics import roc_auc_score
-import transtab
 import warnings
 import numpy as np
 from sklearn.utils import class_weight

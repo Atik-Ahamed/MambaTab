@@ -8,5 +8,6 @@ config={
     'ssl_epochs':100,
     'ssl_corruption':0.5,
     'ssl':False, 
+    'dim':0,
     'device':'cuda'
 }
